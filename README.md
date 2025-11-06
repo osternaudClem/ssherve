@@ -4,7 +4,10 @@
 
 Ssherve is a lightweight, user-friendly CLI tool that lets you manage and connect to your SSH servers through a beautiful interactive menu powered by `fzf`. No more memorizing IPs, ports, or usernames!
 
-## [![Release ssherve](https://github.com/osternaudClem/ssherve/actions/workflows/release.yml/badge.svg)](https://github.com/osternaudClem/ssherve/actions/workflows/release.yml)
+[![Tests](https://github.com/osternaudClem/ssherve/actions/workflows/release.yml/badge.svg)](https://github.com/osternaudClem/ssherve/actions/workflows/release.yml)
+[![Version](https://github.com/osternaudClem/ssherve/actions/workflows/release.yml/badge.svg?event=release)](https://github.com/osternaudClem/ssherve/actions/workflows/release.yml)
+
+---
 
 ## ✨ Features
 
