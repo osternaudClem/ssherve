@@ -1,6 +1,7 @@
 name: Release ssherve
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*.*.*"
