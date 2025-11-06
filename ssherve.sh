@@ -8,8 +8,8 @@ set -euo pipefail
 VERSION="0.0.0"
 CONFIG_DIR="$HOME/.config/ssherve"
 CONFIG_FILE="$CONFIG_DIR/servers.json"
-UPDATE_URL="https://api.github.com/repos/cl3tus/ssherve/releases/latest"
-INSTALL_CMD="curl -fsSL https://raw.githubusercontent.com/cl3tus/ssherve/main/install.sh | bash"
+UPDATE_URL="https://api.github.com/repos/osternaudClem/ssherve/releases/latest"
+INSTALL_CMD="curl -fsSL https://raw.githubusercontent.com/osternaudClem/ssherve/main/install.sh | bash"
 
 # ------------------------------------------
 # Utility functions

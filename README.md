@@ -23,7 +23,7 @@ Ssherve is a lightweight, user-friendly CLI tool that lets you manage and connec
 ## 🚀 Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cl3tus/ssherve/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/osternaudClem/ssherve/main/install.sh | bash
 ```
 
 This will:
@@ -128,7 +128,7 @@ If you prefer to install manually:
 1. **Clone or download the script:**
 
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/cl3tus/ssherve/main/ssherve.sh -o ssherve
+   curl -fsSL https://raw.githubusercontent.com/osternaudClem/ssherve/main/ssherve.sh -o ssherve
    ```
 
 2. **Make it executable:**

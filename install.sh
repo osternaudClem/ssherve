@@ -8,7 +8,7 @@ set -euo pipefail
 INSTALL_DIR="/usr/local/bin"
 CONFIG_DIR="$HOME/.config/ssherve"
 CONFIG_FILE="$CONFIG_DIR/servers.json"
-REPO_URL="https://raw.githubusercontent.com/cl3tus/ssherve/main"
+REPO_URL="https://raw.githubusercontent.com/osternaudClem/ssherve/main"
 SCRIPT_URL="$REPO_URL/ssherve.sh"
 
 # ------------------------------------------
