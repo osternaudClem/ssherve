@@ -47,8 +47,15 @@ jobs:
 
       - name: Generate changelog
         run: |
-          echo "### Changes for v${{ steps.version.outputs.version }}" > CHANGELOG.md
-          git log -1 --pretty=format:"- %s" >> CHANGELOG.md
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          CURRENT_TAG=${{ steps.version.outputs.version }}
+          echo "### Changes for v$CURRENT_TAG" > CHANGELOG.md
+          if [ -n "$PREV_TAG" ]; then
+            echo "" >> CHANGELOG.md
+            git log "$PREV_TAG"..HEAD --pretty=format:"- %s" >> CHANGELOG.md
+          else
+            git log --pretty=format:"- %s" >> CHANGELOG.md
+          fi
 
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
