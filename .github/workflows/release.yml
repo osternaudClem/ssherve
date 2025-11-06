@@ -22,9 +22,9 @@ jobs:
           fetch-depth: 0
 
       - name: Run ShellCheck (lint)
-        uses: ludeeus/action-shellcheck@v2
+        uses: ludeeus/action-shellcheck@master
         with:
-          ignore: |
+          ignore_paths: |
             .github/
           check_together: true
         continue-on-error: false
