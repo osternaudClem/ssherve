@@ -5,7 +5,7 @@ set -euo pipefail
 # ssherve - Interactive SSH connection tool
 # ==========================================
 
-VERSION="1.0.0"
+VERSION="main"
 CONFIG_DIR="$HOME/.config/ssherve"
 CONFIG_FILE="$CONFIG_DIR/servers.json"
 UPDATE_URL="https://api.github.com/repos/cl3tus/ssherve/releases/latest"
